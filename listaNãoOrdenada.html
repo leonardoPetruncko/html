@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--
+
+        Sintaxe
+
+            Uma lista não ordenada se inicia e se encerra respectivamente através das tags <ul> e </ul>.
+
+            Um item da lista se inicia e se encerra respectivamente através das tags <li> e </li>.
+
+            Dentro de um item, assim como na lista ordenada, podemos utilizar qualquer elemento HTML que quisermos
+             (títulos, parágrafos, imagens etc.).
+
+        Exemplo ->
+
+        <body>
+            <ul>
+                <li>Laravel</li>
+                <li>Controle de versão Git</li>
+                <li>Orientação a objetos</li>
+                <li>Arquitetura MVC</li>
+            </ul>
+        </body>
+
+    -->
+
+    <!--
+
+        Atributo de Marcação (type)
+           
+            A principal diferença entre a lista não ordenada e a lista ordenada está na maneira com que os itens de cada lista são apresentados.
+
+            A lista não ordenada coloca marcadores antes de cada elemento, enquanto a lista ordenada enumera os itens.
+
+
+        Para alterarmos o tipo de marcaação devemos usar o atributo (type).
+
+
+        <ul type="disc">    -Marcação através de círculos (bolinha cheia).
+
+        <ul type="square">     -Marcação através de quadrados.
+
+        <ul type="circle">     -Marcação através de quadrados.
+        
+        <ul type="none">        -Remove a marcação da Lista.
+
+    -->
+
+</head>
+
+<body>
+
+    <!-- 
+
+        Exemplo prático
+
+            A utilização de listas não ordenadas pode ser útil, por exemplo, se quisermos 
+            separar os produtos de um site por categoria.
+
+    -->
+    
+    <ul>
+        <li>
+            <h3>Eletrodomésticos</h3>
+            <ul type="circle">
+                <li>Torradeiras</li>
+                <li>Fornos e Fogões</li>
+                <li>Geladeiras</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Hardware</h3>
+            <ul type="circle">
+                <li>Placas de vídeo</li>
+                <li>Placas de Som</li>
+                <li>Processadores</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
